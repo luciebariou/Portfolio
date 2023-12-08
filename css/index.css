@@ -1,0 +1,285 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+body{
+    display: flex;
+    background-color:#E0D4CA;
+    margin:0;
+    flex-direction: column;
+}
+
+
+/* opacity */ 
+
+/*-------*/
+/* HEADER */
+/*-------*/
+
+
+
+header{
+    height: 31.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #FFFDFC;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-bckg{
+    position: absolute;
+    /* width: 30%; */
+}
+
+#header-bckg-1{
+    left: 0;
+    bottom: 0;
+}
+
+#header-bckg-2{
+    right: 0;
+    top: 0;
+}
+
+.header-title{ 
+    z-index: 99;
+}
+
+.header-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.header-name{
+    display: flex;
+    font-family: 'Ms Madi', cursive;
+    flex-direction: row;
+    font-size: 9.375rem;
+    color: #895529;
+
+}
+
+.header-work{
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    flex-direction: row;
+    font-size: 1.25rem;
+
+}
+
+.header-research{
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    flex-direction: row;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.header-site-name{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.875rem;
+    color: black;
+    
+}
+
+
+
+
+
+/* ---- main part1 ----*/
+
+
+
+.part1{
+    height: 28.4375rem;
+    width: 100vw;
+    
+}
+
+.main-title{
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    justify-content: center;
+    font-size: 3.4375rem;
+    color: #895529;
+}
+
+.part1-title{
+    margin-right: 40rem;
+    padding:0;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-img{
+    width: 13.75rem;
+    height: 18.75rem;
+    border-radius: 1.25rem;
+    margin-left: 6.875rem;
+    margin-bottom: 1.875rem;
+}
+
+.texte{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#moi-pro{
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:1.5625rem;
+    margin-left: 5rem;
+    margin-top: 3.125rem;
+    margin-right: 3.125rem;
+    
+}
+
+#moi-perso{
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:1.5625rem;
+    margin-left: 5rem;
+    margin-top: 1.25rem;
+    margin-right: 3.125rem;
+    
+}
+
+#cv{
+    font-family:  'PT Sans Narrow', sans-serif;
+    font-size: 1.25rem;
+    background-color: #736C65;
+    border-color: #736C65;
+    border-radius: 1rem;
+    margin-left:45% ;
+    color: #FFFFFF; 
+    text-decoration: none;
+    padding: 0.5rem;
+    
+}
+
+#cv:hover{
+    background-color: #895529;
+    
+}
+
+ .profil{
+    font-family:  'PT Sans Narrow', sans-serif;
+    font-size: 1.4375rem;
+    margin-left: 80%;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #736C65;
+    padding: 0.625rem;
+    border-radius:0.9375rem;
+
+ }
+
+ .profil:hover{
+    background-color: #895529;
+    
+}
+
+
+
+
+/* ---- Main part 2 ----*/
+
+.part2{
+    height: 31.25rem;
+    background-color:#FFFDFC ;
+    width: 100vw;
+    
+    
+}
+
+.part2-title{
+    display: flex;
+    padding-top: 3.125rem;
+
+}
+.ensemble{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.matière{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.875rem;
+    margin-top: 0.5625rem;
+    justify-content: center;
+    color: #000000;
+    
+}
+
+.box{
+    display:flex;
+    flex-direction: column;
+    background-color: #E8E0D6;
+    border-radius: 0.625rem;
+    width: 15.625rem;
+    height: 16.875rem;
+    align-items: center;
+    margin:0.9375rem;
+    box-shadow: 0.375rem 0.125rem 0.125rem #736C65;
+    transition: 1s;
+}
+
+.box:hover {
+    width: 18.75rem;
+    height: 18.75rem;
+  }
+  
+
+.profil{
+    background-color: #736C65;
+    padding: 0.3125rem;
+    border-radius:0.9375rem;
+}
+
+.img-ens{
+    width: 11.875rem;
+    height: 10.625rem;
+    margin-top: 0.625rem;
+    border-radius: 1.25rem;
+}
+
+
+#velan-ens{
+   width: 12.5rem ;
+   height: 10.625rem ;
+}
+
+.voir-plus{
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #895529;
+    font-size: 1.25rem;
+
+}
+
+
+
+/* ---- footer ----*/
+footer{
+    width: 100vw;
+    height: 18.75rem;
+}
+
+.footer{
+    width: 100vw;
+    height: 20rem;
+    margin:0;
+    
+}
